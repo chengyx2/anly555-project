@@ -1,0 +1,95 @@
+\hypertarget{class_data_set_1_1_qual_data_set}{}\doxysection{Data\+Set.\+Qual\+Data\+Set Class Reference}
+\label{class_data_set_1_1_qual_data_set}\index{DataSet.QualDataSet@{DataSet.QualDataSet}}
+Inheritance diagram for Data\+Set.\+Qual\+Data\+Set\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_data_set_1_1_qual_data_set}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_data_set_1_1_qual_data_set_ad86e5eb9cbd70757c6bf4250a7b2e1c2}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename)
+\item 
+def \mbox{\hyperlink{class_data_set_1_1_qual_data_set_ac8d23214e41a2814c23502c228f9d855}{clean}} (self)
+\item 
+def \mbox{\hyperlink{class_data_set_1_1_qual_data_set_a8825ae577a5eb021ca949a3f840d324a}{explore}} (self)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_data_set_1_1_data_set_a9a12eebdbfbebeae133e807c29407cbb}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, filename)
+\item 
+def \mbox{\hyperlink{class_data_set_1_1_data_set_a192d1a59f636f04474030690d5431544}{clean}} (self)
+\item 
+def \mbox{\hyperlink{class_data_set_1_1_data_set_af2c44b8c218d3d01c3b86c5e2a3e149b}{explore}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_set_1_1_qual_data_set_ad68e57c39111d5f23079725e3be6b6cc}\label{class_data_set_1_1_qual_data_set_ad68e57c39111d5f23079725e3be6b6cc}} 
+{\bfseries \+\_\+type}
+\item 
+\mbox{\Hypertarget{class_data_set_1_1_qual_data_set_afa3a553b287649a6934fb2722e50f36f}\label{class_data_set_1_1_qual_data_set_afa3a553b287649a6934fb2722e50f36f}} 
+{\bfseries \+\_\+data}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_data_set_1_1_data_set}{Data\+Set.\+Data\+Set}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_data_set_1_1_data_set_ad6623e12d963d208caf8a4870e9ab3df}\label{class_data_set_1_1_data_set_ad6623e12d963d208caf8a4870e9ab3df}} 
+{\bfseries \+\_\+data}
+\item 
+\mbox{\Hypertarget{class_data_set_1_1_data_set_a86036f227bacaa9048aece0237c5c158}\label{class_data_set_1_1_data_set_a86036f227bacaa9048aece0237c5c158}} 
+{\bfseries \+\_\+filename}
+\item 
+\mbox{\Hypertarget{class_data_set_1_1_data_set_a2d7bea551bd4592f1f8632dec1752d26}\label{class_data_set_1_1_data_set_a2d7bea551bd4592f1f8632dec1752d26}} 
+{\bfseries \+\_\+datatype}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Subclass inherited from DataSet Class, Defined Quality format Dataset\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_set_1_1_qual_data_set_ad86e5eb9cbd70757c6bf4250a7b2e1c2}\label{class_data_set_1_1_qual_data_set_ad86e5eb9cbd70757c6bf4250a7b2e1c2}} 
+\index{DataSet.QualDataSet@{DataSet.QualDataSet}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!DataSet.QualDataSet@{DataSet.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Data\+Set.\+Qual\+Data\+Set.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{filename }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Initiate the dataset class with the name of a csv file\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_data_set_1_1_data_set_a9a12eebdbfbebeae133e807c29407cbb}{Data\+Set.\+Data\+Set}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_set_1_1_qual_data_set_ac8d23214e41a2814c23502c228f9d855}\label{class_data_set_1_1_qual_data_set_ac8d23214e41a2814c23502c228f9d855}} 
+\index{DataSet.QualDataSet@{DataSet.QualDataSet}!clean@{clean}}
+\index{clean@{clean}!DataSet.QualDataSet@{DataSet.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{clean()}{clean()}}
+{\footnotesize\ttfamily def Data\+Set.\+Qual\+Data\+Set.\+clean (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}fill the missing values with the median or mode, if the columns value can convert to numeric then use mean otherwise use mode\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_data_set_1_1_data_set_a192d1a59f636f04474030690d5431544}{Data\+Set.\+Data\+Set}}.
+
+\mbox{\Hypertarget{class_data_set_1_1_qual_data_set_a8825ae577a5eb021ca949a3f840d324a}\label{class_data_set_1_1_qual_data_set_a8825ae577a5eb021ca949a3f840d324a}} 
+\index{DataSet.QualDataSet@{DataSet.QualDataSet}!explore@{explore}}
+\index{explore@{explore}!DataSet.QualDataSet@{DataSet.QualDataSet}}
+\doxysubsubsection{\texorpdfstring{explore()}{explore()}}
+{\footnotesize\ttfamily def Data\+Set.\+Qual\+Data\+Set.\+explore (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}perform eda to the cleaned dataset
+\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_data_set_1_1_data_set_af2c44b8c218d3d01c3b86c5e2a3e149b}{Data\+Set.\+Data\+Set}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Set.\+py\end{DoxyCompactItemize}

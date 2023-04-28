@@ -1,0 +1,73 @@
+\hypertarget{classexperiment_1_1_experiment}{}\doxysection{experiment.\+Experiment Class Reference}
+\label{classexperiment_1_1_experiment}\index{experiment.Experiment@{experiment.Experiment}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classexperiment_1_1_experiment_a44f29d9d4ea1579cd6689d5a38649cf0}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self, data, labels, classifier)
+\item 
+def \mbox{\hyperlink{classexperiment_1_1_experiment_a4e6705a978ca59e896a88dc22d0734fe}{run\+Cross\+Val}} (self, k)
+\item 
+def \mbox{\hyperlink{classexperiment_1_1_experiment_af9955b7c744d843bb72b195436f595f2}{score}} (self)
+\item 
+def \mbox{\hyperlink{classexperiment_1_1_experiment_ab00da063e1a3f2a6de336e975dfad588}{predict\+\_\+proba}} (self, test\+\_\+data, k)
+\item 
+def \mbox{\hyperlink{classexperiment_1_1_experiment_ac8dcb0a532451deb23a22f6f44f20626}{ROC}} (self, test\+\_\+data, test\+\_\+labels)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classexperiment_1_1_experiment_a2c8f4c9c205eb6e4f4a966ac01c6c58e}\label{classexperiment_1_1_experiment_a2c8f4c9c205eb6e4f4a966ac01c6c58e}} 
+{\bfseries \+\_\+data}
+\item 
+\mbox{\Hypertarget{classexperiment_1_1_experiment_a7c453b821f7a32f9a64f5804f131f5ab}\label{classexperiment_1_1_experiment_a7c453b821f7a32f9a64f5804f131f5ab}} 
+{\bfseries \+\_\+labels}
+\item 
+\mbox{\Hypertarget{classexperiment_1_1_experiment_a345d45b5c727124e5589a029756ebc1e}\label{classexperiment_1_1_experiment_a345d45b5c727124e5589a029756ebc1e}} 
+{\bfseries \+\_\+classifier}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classexperiment_1_1_experiment_a44f29d9d4ea1579cd6689d5a38649cf0}\label{classexperiment_1_1_experiment_a44f29d9d4ea1579cd6689d5a38649cf0}} 
+\index{experiment.Experiment@{experiment.Experiment}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!experiment.Experiment@{experiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def experiment.\+Experiment.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{data,  }\item[{}]{labels,  }\item[{}]{classifier }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}initiate the Experiment class with input of data, labels and classifier\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classexperiment_1_1_experiment_ab00da063e1a3f2a6de336e975dfad588}\label{classexperiment_1_1_experiment_ab00da063e1a3f2a6de336e975dfad588}} 
+\index{experiment.Experiment@{experiment.Experiment}!predict\_proba@{predict\_proba}}
+\index{predict\_proba@{predict\_proba}!experiment.Experiment@{experiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{predict\_proba()}{predict\_proba()}}
+{\footnotesize\ttfamily def experiment.\+Experiment.\+predict\+\_\+proba (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{test\+\_\+data,  }\item[{}]{k }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} generate the predicted probability for the experiement class \end{DoxyVerb}
+ \mbox{\Hypertarget{classexperiment_1_1_experiment_ac8dcb0a532451deb23a22f6f44f20626}\label{classexperiment_1_1_experiment_ac8dcb0a532451deb23a22f6f44f20626}} 
+\index{experiment.Experiment@{experiment.Experiment}!ROC@{ROC}}
+\index{ROC@{ROC}!experiment.Experiment@{experiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{ROC()}{ROC()}}
+{\footnotesize\ttfamily def experiment.\+Experiment.\+ROC (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{test\+\_\+data,  }\item[{}]{test\+\_\+labels }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} generate the ROC curve for the different classifier, the ROC curve will be assume this is a binary classifer label, which assume second label is the postivie, the ROC curve looks slightly better than random classifer may becasue of the dataset: no relationship between label and vectors.\end{DoxyVerb}
+ \mbox{\Hypertarget{classexperiment_1_1_experiment_a4e6705a978ca59e896a88dc22d0734fe}\label{classexperiment_1_1_experiment_a4e6705a978ca59e896a88dc22d0734fe}} 
+\index{experiment.Experiment@{experiment.Experiment}!runCrossVal@{runCrossVal}}
+\index{runCrossVal@{runCrossVal}!experiment.Experiment@{experiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{runCrossVal()}{runCrossVal()}}
+{\footnotesize\ttfamily def experiment.\+Experiment.\+run\+Cross\+Val (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{k }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}perform the cross validation for Experiemtn Class\end{DoxyVerb}
+ \mbox{\Hypertarget{classexperiment_1_1_experiment_af9955b7c744d843bb72b195436f595f2}\label{classexperiment_1_1_experiment_af9955b7c744d843bb72b195436f595f2}} 
+\index{experiment.Experiment@{experiment.Experiment}!score@{score}}
+\index{score@{score}!experiment.Experiment@{experiment.Experiment}}
+\doxysubsubsection{\texorpdfstring{score()}{score()}}
+{\footnotesize\ttfamily def experiment.\+Experiment.\+score (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} get the score for the experiement class \end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+experiment.\+py\end{DoxyCompactItemize}

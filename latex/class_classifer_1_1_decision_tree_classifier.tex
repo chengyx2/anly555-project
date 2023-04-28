@@ -1,0 +1,148 @@
+\hypertarget{class_classifer_1_1_decision_tree_classifier}{}\doxysection{Classifer.\+Decision\+Tree\+Classifier Class Reference}
+\label{class_classifer_1_1_decision_tree_classifier}\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+Inheritance diagram for Classifer.\+Decision\+Tree\+Classifier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_classifer_1_1_decision_tree_classifier}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_a628747c7595d6aa4c83f73a668426d44}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_a3988dd390913f1fa983fa77c440be079}{entropy}} (self, data)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_adc6d86027cd0936292e4a619b5f80e34}{infogain}} (self, data, labels)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_a62ac75530dd5b4446cf9fe66dcf6501f}{train}} (self, data, labels)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_a4edba878c521a52dd0168057d02ce79c}{test}} (self, data)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_af7c2bf919c5e6e8deabe202dd8c8c182}{\+\_\+\+\_\+str\+\_\+\+\_\+}} (self)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_classifier_algorithm_a59373c03e3518dbb368aab50126ff4cb}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_classifier_algorithm_a4595d0890d1f20c1c8114d2c9d0348b7}{train}} (self)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_classifier_algorithm_a8ea80dd7c8b5997e09f6fab1828be26c}{test}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_a54e52aa8caab97dc78476f092dc3ff20}{\+\_\+predict}} (self, data, labels)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_acfba44da8c0207a06a979148a180afce}{\+\_\+test\+\_\+predict}} (self, data, tree)
+\item 
+def \mbox{\hyperlink{class_classifer_1_1_decision_tree_classifier_a6136d00160e69ac3cdc1af68414d6a5e}{\+\_\+tostring}} (self, tree)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_af9ca0d440113a16385afccbff3e8f02b}\label{class_classifer_1_1_decision_tree_classifier_af9ca0d440113a16385afccbff3e8f02b}} 
+{\bfseries \+\_\+tree}
+\item 
+\mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_a71729c955f4c4489d0063e4a42bb17cb}\label{class_classifer_1_1_decision_tree_classifier_a71729c955f4c4489d0063e4a42bb17cb}} 
+{\bfseries \+\_\+data}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_classifer_1_1_classifier_algorithm}{Classifer.\+Classifier\+Algorithm}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_classifer_1_1_classifier_algorithm_a559e88f8bc6bbba69107c5d45f73c450}\label{class_classifer_1_1_classifier_algorithm_a559e88f8bc6bbba69107c5d45f73c450}} 
+{\bfseries \+\_\+data}
+\item 
+\mbox{\Hypertarget{class_classifer_1_1_classifier_algorithm_a9d88a446796e3f6073c91e61afc70dcf}\label{class_classifer_1_1_classifier_algorithm_a9d88a446796e3f6073c91e61afc70dcf}} 
+{\bfseries \+\_\+labels}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Subclass inherited from ClassifierAlgorithm Class, perform Decision Tree classification, this class temprory only support classification decision tree(no regression decision tree)\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_a628747c7595d6aa4c83f73a668426d44}\label{class_classifer_1_1_decision_tree_classifier_a628747c7595d6aa4c83f73a668426d44}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!\_\_init\_\_@{\_\_init\_\_}}
+\index{\_\_init\_\_@{\_\_init\_\_}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{\_\_init\_\_()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}initiate the ClassifierAlgorithm\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_classifer_1_1_classifier_algorithm_a59373c03e3518dbb368aab50126ff4cb}{Classifer.\+Classifier\+Algorithm}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_af7c2bf919c5e6e8deabe202dd8c8c182}\label{class_classifer_1_1_decision_tree_classifier_af7c2bf919c5e6e8deabe202dd8c8c182}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!\_\_str\_\_@{\_\_str\_\_}}
+\index{\_\_str\_\_@{\_\_str\_\_}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{\_\_str\_\_()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} the function to convert the tree to a string\end{DoxyVerb}
+ \mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_a54e52aa8caab97dc78476f092dc3ff20}\label{class_classifer_1_1_decision_tree_classifier_a54e52aa8caab97dc78476f092dc3ff20}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!\_predict@{\_predict}}
+\index{\_predict@{\_predict}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{\_predict()}{\_predict()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+\_\+predict (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{data,  }\item[{}]{labels }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb}the tree building function for Decision Tree Classifier with input of data and labels\end{DoxyVerb}
+ \mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_acfba44da8c0207a06a979148a180afce}\label{class_classifer_1_1_decision_tree_classifier_acfba44da8c0207a06a979148a180afce}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!\_test\_predict@{\_test\_predict}}
+\index{\_test\_predict@{\_test\_predict}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{\_test\_predict()}{\_test\_predict()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+\_\+test\+\_\+predict (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{data,  }\item[{}]{tree }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb} the test recursive function for Decision Tree Classifier with input of data and tree\end{DoxyVerb}
+ \mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_a6136d00160e69ac3cdc1af68414d6a5e}\label{class_classifer_1_1_decision_tree_classifier_a6136d00160e69ac3cdc1af68414d6a5e}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!\_tostring@{\_tostring}}
+\index{\_tostring@{\_tostring}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{\_tostring()}{\_tostring()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+\_\+tostring (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{tree }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\begin{DoxyVerb} the recursive helper function to convert the tree to a string\end{DoxyVerb}
+ \mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_a3988dd390913f1fa983fa77c440be079}\label{class_classifer_1_1_decision_tree_classifier_a3988dd390913f1fa983fa77c440be079}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!entropy@{entropy}}
+\index{entropy@{entropy}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{entropy()}{entropy()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+entropy (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{data }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}the entropy function for Decision Tree Classifier with input of data\end{DoxyVerb}
+ \mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_adc6d86027cd0936292e4a619b5f80e34}\label{class_classifer_1_1_decision_tree_classifier_adc6d86027cd0936292e4a619b5f80e34}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!infogain@{infogain}}
+\index{infogain@{infogain}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{infogain()}{infogain()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+infogain (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{data,  }\item[{}]{labels }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}the information gain function for Decision Tree Classifier with input of label\end{DoxyVerb}
+ \mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_a4edba878c521a52dd0168057d02ce79c}\label{class_classifer_1_1_decision_tree_classifier_a4edba878c521a52dd0168057d02ce79c}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!test@{test}}
+\index{test@{test}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{test()}{test()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+test (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{data }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}perform testing process\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_classifer_1_1_classifier_algorithm_a8ea80dd7c8b5997e09f6fab1828be26c}{Classifer.\+Classifier\+Algorithm}}.
+
+\mbox{\Hypertarget{class_classifer_1_1_decision_tree_classifier_a62ac75530dd5b4446cf9fe66dcf6501f}\label{class_classifer_1_1_decision_tree_classifier_a62ac75530dd5b4446cf9fe66dcf6501f}} 
+\index{Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}!train@{train}}
+\index{train@{train}!Classifer.DecisionTreeClassifier@{Classifer.DecisionTreeClassifier}}
+\doxysubsubsection{\texorpdfstring{train()}{train()}}
+{\footnotesize\ttfamily def Classifer.\+Decision\+Tree\+Classifier.\+train (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{data,  }\item[{}]{labels }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb} the train function for Decision Tree Classifier with input of data and labels\end{DoxyVerb}
+ 
+
+Reimplemented from \mbox{\hyperlink{class_classifer_1_1_classifier_algorithm_a4595d0890d1f20c1c8114d2c9d0348b7}{Classifer.\+Classifier\+Algorithm}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Classifer.\+py\end{DoxyCompactItemize}
